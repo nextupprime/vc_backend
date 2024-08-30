@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "license": "MIT",
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "scripts": {
+    "build": "strapi build",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@lomray/strapi-firebase-auth": "^1.0.6",
+    "@strapi/plugin-documentation": "^4.15.0",
+    "@strapi/plugin-i18n": "4.15.0",
+    "@strapi/plugin-users-permissions": "4.15.0",
+    "@strapi/strapi": "4.15.0",
+    "better-sqlite3": "8.6.0",
+    "firebase-admin": "^12.3.0",
+    "pg": "^8.11.5",
+    "strapi-plugin-import-export-content": "^0.4.2",
+    "strapi-plugin-import-export-entries": "^1.23.1",
+    "strapi-provider-upload-imagekit": "^4.15.0"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "69186745-e335-4374-a164-0b67f1af35f8"
+  }
+}
